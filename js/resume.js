@@ -25,4 +25,8 @@
     target: '#sideNav'
   });
 
+  $('#adknown-btn').on('click', function(){
+    $('#exampleModal').modal();
+  });
+
 })(jQuery); // End of use strict
