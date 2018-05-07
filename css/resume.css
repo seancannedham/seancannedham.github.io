@@ -5,7 +5,7 @@ body {
 }
 
 .btn-primary-outline {
-  background-color: transparent;
+  background-color: #33A2FF;
   border-color: #33A2FF;
   transition: border 0.2s ease;
 }
