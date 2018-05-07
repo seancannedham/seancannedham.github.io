@@ -25,8 +25,12 @@
     target: '#sideNav'
   });
 
-  $('#adknown-btn').on('click', function(){
-    $('#exampleModal').modal();
+  $('#rbc-btn').on('click', function(){
+    $('#rbc-modal').modal();
+  });
+
+  $('#blackberry-btn').on('click', function(){
+    $('#blackberry-modal').modal();
   });
 
 })(jQuery); // End of use strict

@@ -112,18 +112,18 @@
                 <h3 class="mb-0">Software Engineering Intern</h3>
                 <div class="subheading mb-3"><a href="https://www.adknown.com/">Adknown</a></div>
               </div>
-              <div class="btn btn-outline">
+              <div class="btn btn-outline" id="rbc-btn">
                 <h3 class="mb-0">Android Developer Co-op</h3>
                 <div class="subheading mb-3"><a href="https://www.adknown.com/">Royal Bank of Canada</a></div>
               </div>
-              <div class="btn btn-outline">
+              <div class="btn btn-outline" id="blackberry-btn">
                 <h3 class="mb-0">Software Tools Developer Co-op</h3>
                 <div class="subheading mb-3"><a href="https://www.adknown.com/">Blackberry</a></div>
               </div>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+<!--           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Android Developer Co-op</h3>
               <div class="subheading mb-3"><a href="https://www.rbc.com/">Royal Bank of Canada</a></div>
@@ -137,21 +137,13 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Software Tools Developer Co-op</h3>
               <div class="subheading mb-3"><a href="https://www.blackberry.com/">Blackberry</a></div>
-              <p>For my first co-op term, I worked at Blackberry in Waterloo on the Enterprise Continuous Delivery team. Here's a summary of the 4 months that I spent at Blackberry:</p>
-              <ul>
-                <li>Participated in projects that included working with Jenkins, Groovy, Java, Gerrit, Shell and BASH scripts, Git, Puppet, Sonatype Nexus, Sonar, Klocwork, and BlackDuck.</li>
-                <li>Managed and setup build configurations in Jenkins.</li>
-                <li>Refactored existing tooling, and produced new tooling to scrape console outputs and provide useful build information to developers via automated e-mails.</li>
-                <li>Developed a Groovy script to parse JSON produced by builds and collect build timing data. Extended an existing build server API using Java to add queries for the data.</li>
-                <li>Setup a Sonar static code analysis server, and numerous Linux and Windows VM build slaves quickly and independently.</li>
-              </ul>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">January 2016 - April 2016</span>
             </div>
-          </div>
+          </div> -->
 
-          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal fade" id="rbc-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -168,9 +160,28 @@
                       <li>Wrote unit tests to cover business logic and core functionality of newly developed features using JUnit and Robolectric.</li>
                     </ul>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="blackberry-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">RBC Job Summary</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>For my first co-op term, I worked at Blackberry in Waterloo on the Enterprise Continuous Delivery team. Here's a summary of the 4 months that I spent at Blackberry:</p>
+                  <ul>
+                    <li>Participated in projects that included working with Jenkins, Groovy, Java, Gerrit, Shell and BASH scripts, Git, Puppet, Sonatype Nexus, Sonar, Klocwork, and BlackDuck.</li>
+                    <li>Managed and setup build configurations in Jenkins.</li>
+                    <li>Refactored existing tooling, and produced new tooling to scrape console outputs and provide useful build information to developers via automated e-mails.</li>
+                    <li>Developed a Groovy script to parse JSON produced by builds and collect build timing data. Extended an existing build server API using Java to add queries for the data.</li>
+                    <li>Setup a Sonar static code analysis server, and numerous Linux and Windows VM build slaves quickly and independently.</li>
+                  </ul>
                 </div>
               </div>
             </div>
