@@ -7,6 +7,12 @@ body {
 .btn-primary-outline {
   background-color: transparent;
   border-color: #ccc;
+  transition: border 0.2s ease;
+}
+
+.btn-primary-outline:hover {
+  border: 5px solid #868e96;
+  cursor: pointer;
 }
 
 @media (min-width: 992px) {
