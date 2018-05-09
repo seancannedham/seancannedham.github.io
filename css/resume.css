@@ -112,7 +112,7 @@ section.resume-section {
   justify-content: space-around;
 }
 
-section.resume-content {
+section.resume-section .resume-item .resume-content {
   display: flex;
   justify-content: space-around;
 }
