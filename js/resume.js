@@ -33,4 +33,8 @@
     $('#blackberry-modal').modal();
   });
 
+  $('adknown-btn').on('click', function(){
+    $('#adknown-modal').modal();
+  });
+
 })(jQuery); // End of use strict
